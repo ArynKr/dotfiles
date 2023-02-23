@@ -1,1 +1,7 @@
-../.gitconfig
+[user]
+	name = Aryan Kumar
+	email = aryankumar1504@gmail.com
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
