@@ -34,6 +34,10 @@ rm ~/.poshthemes/themes.zip
 # remove all these other than robbyrussell
 cd .poshthemes && rm -v !(robbyrussell.omp.json)
 
+# install pnpm
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+source /home/arynkr/.bashrc
+
 # z jump directory setup
 mkdir z && cd z
 curl -LJO https://raw.githubusercontent.com/rupa/z/master/z.sh

@@ -136,3 +136,8 @@ function mkcd()
 
 # z jump directory
 source ~/\.zconfig/z.sh
+
+# pnpm
+export PNPM_HOME="/home/arynkr/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
